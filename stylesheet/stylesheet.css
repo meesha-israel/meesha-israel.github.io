@@ -1,33 +1,50 @@
 body
 {
-    margin:0px;
-    padding:0px;
-    font-family:cursive;
+padding: 0px;
+margin: 0px;
+font-family: monospace;
 }
 
 header
 {
-    height: 100vh;
-    background-image: url(purpleandwhite.jpg);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-size: cover;
-    margin-bottom: 30px;
+
+	height: 100vh;
+	background-image: url('https://images.unsplash.com/photo-1529420705456-5c7e04dd043d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f23d7c077ab1f917d774c638d0aefadc&auto=format&fit=crop&w=700&q=80');
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-size: cover;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+.main
+{
+	width: 90%;
+	max-width: 100%;
+	margin: 10px 5% 0 5%;
+	font-size: 1.4em;
+	line-height: 1.4em;
+	/*padding: 15px;*/
+	background-color: #eee;
+	height: 100vh;
 }
 
-#down 
+.main p
 {
-    position: absolute;
-    top:85vh;
-    padding: 20px;
-    font-size: 2.5em;
+	padding: 10px;
+}
+#down
+{
+	position: absolute;
+	top:85vh;
+	size: 40px;
+	padding: 20px;
+	font-size: 2.5em;
 }
 
 #down:hover
 {
-    cursor: pointer;
-    background-color: mediumpurple;
-    opacity: 0.8;
+	cursor: pointer;
+	background-color: #eee;
+	opacity: 0.8;
 }
