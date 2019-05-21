@@ -1,0 +1,33 @@
+body
+{
+    margin:0px;
+    padding:0px;
+    font-family:cursive;
+}
+
+header
+{
+    height: 100vh;
+    background-image: url(purplehearts.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+#down 
+{
+    position: absolute;
+    top:85vh;
+    padding: 20px;
+    font-size: 2.5em;
+}
+
+#down:hover
+{
+    cursor: pointer;
+    background-color: mediumpurple;
+    opacity: 0.8;
+}
